@@ -2,10 +2,10 @@
  * Modificar un array en un objeto
  */
 
- let estudiante = {
-     nombre: 'Alba',
-     conocimientos: ['Trello', 'Adobe']
- }
+let estudiante = {
+    nombre: 'Alba',
+    conocimientos: ['Trello', 'Adobe']
+};
 
 /**
  * Alba ha aprendido hace poco a trabajar con CSS. Escribe UNA sentencia JavaScript que modifique la propiedad 'conocimientos'; y añade uno nuevo: 'CSS'
@@ -22,3 +22,6 @@
  * 1. ¿De tipo de variable es 'conocimientos'?
  * 2. ¿Cuál es el método para añadir un nuevo elemento a un array?
  */
+
+estudiante.conocimientos.push("CSS");
+console.log(estudiante.conocimientos);
